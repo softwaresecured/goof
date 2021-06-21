@@ -245,6 +245,7 @@ const users = [
 let messages = [];
 let lastId = 1;
 let password2 = Math.random().toString(32);
+const yetAnotherRandomPass = Math.random().toString(32);
 const secret_password = Math.random().toString(32);
 
 function findUser(auth) {
